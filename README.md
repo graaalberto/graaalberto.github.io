@@ -73,9 +73,9 @@ Combinando experiência operacional em ambiente fabril e desenvolvimento de apli
 
 Estou disponível para consultorias, desenvolvimento de projetos e serviços técnicos presenciais ou remotos.
 
-* 📱 **WhatsApp / Telefone:** [+244 956360304](https://wa.me/244956360304) / +244 956 360 304[span_1](start_span)[span_1](end_span)
-* ✉️ **E-mail:** [graaa-enginner@outlook.com](mailto:graaa-enginner@outlook.com)[span_2](start_span)[span_2](end_span)
-* 📍 **Endereço:** Viana, Luanda, Angola[span_3](start_span)[span_3](end_span)
+* 📱 **WhatsApp / Telefone:** [+244 956360304](https://wa.me/244956360304) / +244 997 384 382 (start_span)(end_span)
+* ✉️ **E-mail:** [graaa-enginner@outlook.com](mailto:graaa-enginner@outlook.com)(start_span)(end_span)
+* 📍 **Endereço:** Viana, Luanda, Angola (start_span)(end_span)
 * 🌐 **Portfólio Web:** [graaalberto.github.io](https://graaalberto.github.io)
 
 ---
