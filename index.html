@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graça Alberto | Consultor de Tecnologia, Eletromecânica & Automação</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .bg-grid {
+            background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-slate-900">
+
+    <!-- Navegação -->
+    <nav class="fixed top-0 w-full bg-slate-900/90 backdrop-blur-md z-50 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-wider text-cyan-400 flex items-center gap-2">
+                <i class="fa-solid fa-gears"></i> GRAÇA ALBERTO
+            </a>
+            <div class="hidden md:flex space-x-6 text-sm font-medium text-slate-300">
+                <a href="#sobre" class="hover:text-cyan-400 transition">Sobre</a>
+                <a href="#servicos" class="hover:text-cyan-400 transition">Serviços</a>
+                <a href="#competencias" class="hover:text-cyan-400 transition">Competências</a>
+                <a href="#contacto" class="hover:text-cyan-400 transition">Contacto</a>
+            </div>
+            <a href="#contacto" class="px-4 py-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-lg text-sm transition">
+                Solicitar Serviço
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center pt-24 pb-12 px-4 bg-grid relative">
+        <div class="max-w-4xl mx-auto text-center z-10">
+            <span class="px-4 py-1.5 bg-cyan-950 border border-cyan-800 text-cyan-400 rounded-full text-xs font-semibold uppercase tracking-widest inline-block mb-6">
+                Eletromecânica • Automação • Software • Formação
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+                Soluções Integradas de <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400">Engenharia, TI e Manutenção Industrial</span>
+            </h1>
+            <p class="text-slate-400 text-base md:text-lg mb-8 max-w-3xl mx-auto leading-relaxed">
+                Especialista técnico multidisciplinar com vasta experiência operacional em ambiente fabril, desenvolvimento Full Stack, infraestruturas elétricas, redes de suporte de TI e capacitação técnica profissional.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me/244956360304" target="_blank" class="px-6 py-3 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold rounded-lg transition flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> Conversar via WhatsApp
+                </a>
+                <a href="#servicos" class="px-6 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold rounded-lg border border-slate-700 transition flex items-center justify-center gap-2">
+                    Ver Todos os Serviços
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resumo / Sobre -->
+    <section id="sobre" class="py-16 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <div class="p-6 bg-slate-950 rounded-xl border border-slate-800 text-center">
+                    <i class="fa-solid fa-industry text-4xl text-cyan-400 mb-3"></i>
+                    <h3 class="font-bold text-white text-lg">Manutenção & Produção</h3>
+                    <p class="text-slate-400 text-xs mt-2">Intervenção eletromecânica, operação fabril especializada e HST.</p>
+                </div>
+                <div class="p-6 bg-slate-950 rounded-xl border border-slate-800 text-center">
+                    <i class="fa-solid fa-code text-4xl text-indigo-400 mb-3"></i>
+                    <h3 class="font-bold text-white text-lg">Software & DevOps</h3>
+                    <p class="text-slate-400 text-xs mt-2">Sistemas Web, Mobile, Desktop, APIs REST e Gestão Aplicacional.</p>
+                </div>
+                <div class="p-6 bg-slate-950 rounded-xl border border-slate-800 text-center">
+                    <i class="fa-solid fa-chalkboard-user text-4xl text-emerald-400 mb-3"></i>
+                    <h3 class="font-bold text-white text-lg">Formação & Liderança</h3>
+                    <p class="text-slate-400 text-xs mt-2">Instrução técnica, gestão de equipas e relatórios de produção.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Ampliados -->
+    <section id="servicos" class="py-20 bg-slate-950">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white mb-4">Serviços Oferecidos</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">Atuação abrangente para empresas, indústrias e clientes particulares.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 1. Desenvolcimento Web e App -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-2">Desenvolvimento de Software</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Criação de Web Apps e APIs (Laravel, Express, React, Django, Spring Boot), além de softwares Desktop e Mobile em C++, C#, Java, Python e Go.
+                    </p>
+                </div>
+
+                <!-- 2. Eletromecânica & Manutenção -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fa-solid fa-wrench"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-2">Manutenção Eletromecânica</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Manutenção preventiva e corretiva de linhas de produção, motores, quadros elétricos e equipamentos de ambiente fabril com normas HST.
+                    </p>
+                </div>
+
+                <!-- 3. Instalações Elétricas -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fa-solid fa-bolt"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-2">Instalações & Comandos Elétricos</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Montagem e dimensionamento de redes elétricas residenciais, prediais e industriais, quadros de comando e automação em ambiente virtual.
+                    </p>
+                </div>
+
+                <!-- 4. TI, Redes & Hardware -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-2">Redes, TI & Hardware</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Instalação de redes LAN/WLAN, repetidores, routers, switches, suporte remoto, manutenção de computadores, smartphones e placas eletrónicas.
+                    </p>
+                </div>
+
+                <!-- 5. Segurança Eletrónica -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fa-solid fa-video"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-2">Segurança Eletrónica & CCTV</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Projeto, montagem e manutenção de sistemas de vigilância CCTV, câmaras IP, WebCams e gestão de acessos.
+                    </p>
+                </div>
+
+                <!-- 6. Formação & Consultoria Fabril -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
+                    <div class="text-cyan-400 text-2xl mb-4"><i class="fa-solid fa-user-tie"></i></div>
+                    <h3 class="text-xl font-bold text-white mb-2">Formação & Consultoria Industrial</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Formações técnicas corporativas (Programação, TI e Elétrica), supervisão de equipas fabris, gestão de mapas de produção e relatórios.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Matriz de Competências -->
+    <section id="competencias" class="py-20 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white mb-4">Domínio Técnico</h2>
+                <p class="text-slate-400">Tecnologias, ferramentas e metodologias utilizadas no dia a dia.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Stack Software -->
+                <div class="bg-slate-950 p-6 rounded-xl border border-slate-800">
+                    <h3 class="text-cyan-400 font-bold mb-3"><i class="fa-solid fa-code mr-2"></i>Linguagens & Frameworks</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">C / C++ / C#</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">Python / Java / Go</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">PHP / JavaScript / Ruby</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">React / Laravel</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">Django / Flask / Spring Boot</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">APIs REST / RESTful</span>
+                    </div>
+                </div>
+
+                <!-- Infraestrutura & TI -->
+                <div class="bg-slate-950 p-6 rounded-xl border border-slate-800">
+                    <h3 class="text-cyan-400 font-bold mb-3"><i class="fa-solid fa-server mr-2"></i>TI, Redes & Eletrónica</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">Windows / macOS / Linux</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">Redes LAN / WLAN / WiFi</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">Routers / Switches / Modems</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">CCTV / IP Cam</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">Reparação de Placas</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">Assistência Remota</span>
+                    </div>
+                </div>
+
+                <!-- Industrial & Gestão -->
+                <div class="bg-slate-950 p-6 rounded-xl border border-slate-800">
+                    <h3 class="text-cyan-400 font-bold mb-3"><i class="fa-solid fa-industry mr-2"></i>Eletromecânica & Gestão</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">Manutenção Industrial</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">Comandos Elétricos</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">Automação Virtual</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">HSE / HST Segurança</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">Gestão de Equipes</span>
+                        <span class="px-2.5 py-1 bg-slate-800 text-slate-300 rounded text-xs">Mapas de Produção</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-20 bg-slate-950">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-white mb-2">Entrar em Contacto</h2>
+            <p class="text-slate-400 mb-10">Solicite um orçamento para prestação de serviços, consultoria ou formação.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                <!-- Telefone / WhatsApp -->
+                <a href="https://wa.me/244956360304" target="_blank" class="p-6 bg-slate-900 rounded-xl border border-slate-800 hover:border-emerald-500 transition flex flex-col items-center">
+                    <i class="fa-brands fa-whatsapp text-3xl text-emerald-400 mb-3"></i>
+                    <span class="text-xs text-slate-500 uppercase tracking-wider font-semibold">WhatsApp / Tel</span>
+                    <span class="text-slate-200 text-sm mt-1 font-medium">+244 956 360 304</span>
+                    <span class="text-slate-400 text-xs">+244 956 360 304</span>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:graaalberto@live.com" class="p-6 bg-slate-900 rounded-xl border border-slate-800 hover:border-cyan-500 transition flex flex-col items-center">
+                    <i class="fa-regular fa-envelope text-3xl text-cyan-400 mb-3"></i>
+                    <span class="text-xs text-slate-500 uppercase tracking-wider font-semibold">E-mail</span>
+                    <span class="text-slate-200 text-sm mt-1 font-medium">graaalberto@live.com</span>
+                </a>
+
+                <!-- Localização -->
+                <div class="p-6 bg-slate-900 rounded-xl border border-slate-800 flex flex-col items-center">
+                    <i class="fa-solid fa-location-dot text-3xl text-indigo-400 mb-3"></i>
+                    <span class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Localização</span>
+                    <span class="text-slate-200 text-sm mt-1 font-medium">Viana, Luanda, Angola</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-6 bg-slate-900 border-t border-slate-800 text-center text-slate-500 text-xs">
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Graça Alberto — Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
