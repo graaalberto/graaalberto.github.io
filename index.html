@@ -4,29 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Título Principal do Site -->
-    <title>Graça Alberto | Engenharia de Software, Eletromecânica & Automação em Luanda</title>
-
-    <!-- Descrição para Motores de Busca -->
+    <!-- Título & SEO -->
+    <title>Graça Alberto | Engenharia de Software, Eletromecânica & Automação</title>
     <meta name="description" content="Portfólio profissional de Graça Alberto. Serviços de Desenvolvimento Web, APIs, Manutenção Eletromecânica, Comandos Elétricos e Formação Técnica em Luanda, Angola.">
     <meta name="keywords" content="Graça Alberto, Engenharia de Software Angola, Eletromecânica Luanda, Automação Industrial, Desenvolvimento Web Luanda, Manutenção Fabril, graaa-enginner">
     <meta name="author" content="Graça Alberto">
     <meta name="robots" content="index, follow">
-
-    <!-- URL Canónica -->
     <link rel="canonical" href="https://graaa-enginner.it.ao/">
 
-    <!-- Open Graph (Para aparecer bonito ao partilhar no WhatsApp, LinkedIn e Facebook) -->
+    <!-- Open Graph (Partilha em Redes Sociais) -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://graaa-enginner.it.ao/">
     <meta property="og:title" content="Graça Alberto | Engenharia de Software, Eletromecânica & Automação">
     <meta property="og:description" content="Serviços especializados em Engenharia de Software, Automação Industrial e Eletromecânica em Luanda, Angola.">
-    <meta property="og:image" content="https://graaa-enginner.it.ao/og-image.png">
 
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Graça Alberto | Engenharia de Software & Eletromecânica">
-    <meta name="twitter:description" content="Consultoria Técnica, Desenvolvimento de Software e Automação Industrial em Luanda.">
+    <!-- Estilos Locais Embutidos (Sem Ficheiro CSS Separado e Sem Bibliotecas Externas) -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: #020617; /* Dark Slate 950 */
+            color: #f8fafc;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom: 1px solid #1e293b;
+            max-width: 1000px;
+            margin: 0 auto 30px auto;
+        }
+
+        header h1 {
+            color: #ffffff;
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            color: #22d3ee; /* Cyan 400 */
+            font-size: 1rem;
+            font-weight: 600;
+            margin-top: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            color: #22d3ee;
+            font-size: 1.25rem;
+            border-left: 4px solid #22d3ee;
+            padding-left: 10px;
+            margin: 30px 0 15px 0;
+            text-transform: uppercase;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #0f172a; /* Slate 900 */
+            border: 1px solid #1e293b;
+            border-radius: 12px;
+            padding: 20px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .card:hover {
+            border-color: #22d3ee;
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            color: #ffffff;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .card p, .card ul {
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+
+        .card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .card ul li {
+            margin-bottom: 6px;
+        }
+
+        .card ul li::before {
+            content: "✓ ";
+            color: #22d3ee;
+            font-weight: bold;
+        }
+
+        .btn-contacto {
+            display: inline-block;
+            background-color: #22d3ee;
+            color: #020617;
+            padding: 12px 24px;
+            font-weight: 700;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: background 0.2s;
+        }
+
+        .btn-contacto:hover {
+            background-color: #38bdf8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+            border-top: 1px solid #1e293b;
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+    </style>
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-slate-900">
 
