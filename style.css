@@ -7,6 +7,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+
 /* Detalhe humano: seleção simples */
 ::selection { background: #fff; color: #000; }
 
@@ -16,3 +17,5 @@ a { text-underline-offset: 4px; }
 /* Scrollbar discreta */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-thumb { background: #27272a; }
+
+.sr-only { position:absolute; left:-10000px; width:1px; height:1px; overflow:hidden; }
