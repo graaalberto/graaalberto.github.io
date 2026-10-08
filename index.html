@@ -3,190 +3,838 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Título que vende clique no Google -->
-    <title>Graça Alberto — Engenheiro de Processo Industrial</title>
-    <meta name="description" content="Engenheiro de Processo Industrial. Redução de perdas, rastreabilidade ISO 22000, manutenção eletromecânica e dashboards industriais.">
-    <meta name="keywords" content="engenheiro de processo Luanda, técnico industrial Angola, manutenção eletromecânica Luanda, redução de refugo, ISO 22000 Angola, Refriango, Krones, automação industrial Angola, Graça Alberto">
+
+    <meta name="description"
+          content="Portfólio profissional de Graça Alberto, Engenheiro de Processos Industriais.">
+
     <meta name="author" content="Graça Alberto">
-    <meta name="robots" content="index, follow, max-image-preview:large">
-    <link rel="canonical" href="https://graaa-enginner.it.ao/">
 
-    <!-- Open Graph para WhatsApp/LinkedIn -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://graaa-enginner.it.ao/">
-    <meta property="og:title" content="Graça Alberto — Engenheiro de Processo Industrial | Luanda">
-    <meta property="og:description" content="5 anos Refriango | Redução de refugo | ISO 22000 | Eletromecânica | Disponível para indústrias em Luanda">
-    <meta property="og:image" content="https://graaa-enginner.it.ao/og-image.jpg">
-    <meta property="og:locale" content="pt_AO">
+    <title>Graça Alberto | Engenheiro de Processos Industriais</title>
 
-    <!-- Para Google mostrar foto no resultado -->
-    <meta name="google-site-verification" content="COLOCA_AQUI_DEPOIS">
-    <meta name="msvalidate.01" content="COLOCA_AQUI_DEPOIS_BING">
+    <style>
 
-    <!-- JSON-LD - ISSO FAZ VOCÊ APARECER COMO PROFISSIONAL NO GOOGLE -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Graça Alberto",
-      "jobTitle": "Engenheiro de Processo Industrial",
-      "description": "Engenheiro de Processo Industrial, especialista em linha de produção",
-      "url": "https://graaa-enginner.it.ao/",
-      "image": "https://graaa-enginner.it.ao/og-image.jpg",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Luanda",
-        "addressCountry": "AO"
-      },
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Refriango"
-      },
-      "knowsAbout": ["Linha de Envase Krones", "ISO 22000", "Redução de Refugo", "Manutenção Eletromecânica", "Automação Industrial", "CIP", "HST"],
-      "sameAs": [
-        "https://github.com/graaalberto"
-      ]
-    }
-    </script>
+        /* =========================
+           CONFIGURAÇÕES GERAIS
+           ========================= */
 
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            background: #f5f5f5;
+            color: #222;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .container {
+            width: 92%;
+            max-width: 1050px;
+            margin: 0 auto;
+        }
+
+
+        /* =========================
+           CABEÇALHO
+           ========================= */
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+            padding: 22px 0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .nome {
+            margin: 0;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .cargo {
+            margin: 3px 0 0;
+            color: #666;
+            font-size: 14px;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+
+        nav a {
+            color: #444;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* =========================
+           APRESENTAÇÃO
+           ========================= */
+
+        .intro {
+            background: #fff;
+            padding: 75px 0 65px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .intro h1 {
+            max-width: 850px;
+            margin: 0 0 18px;
+            font-size: 42px;
+            line-height: 1.15;
+            font-weight: 700;
+        }
+
+        .intro p {
+            max-width: 760px;
+            margin: 0;
+            color: #555;
+            font-size: 19px;
+        }
+
+        .intro-info {
+            margin-top: 28px !important;
+            color: #666 !important;
+            font-size: 14px !important;
+        }
+
+        .botao {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 11px 17px;
+            background: #222;
+            color: #fff;
+            border-radius: 3px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .botao:hover {
+            background: #444;
+        }
+
+
+        /* =========================
+           SEÇÕES
+           ========================= */
+
+        section {
+            padding: 60px 0;
+        }
+
+        section:nth-child(even) {
+            background: #fff;
+        }
+
+        .titulo-secao {
+            margin: 0 0 28px;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .texto {
+            max-width: 850px;
+            color: #444;
+        }
+
+
+        /* =========================
+           EXPERIÊNCIA
+           ========================= */
+
+        .experiencia {
+            margin-bottom: 35px;
+            padding-left: 22px;
+            border-left: 3px solid #333;
+        }
+
+        .experiencia h3 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .empresa {
+            margin: 3px 0 15px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .experiencia ul {
+            margin: 0;
+            padding-left: 20px;
+            color: #444;
+        }
+
+        .experiencia li {
+            margin-bottom: 8px;
+        }
+
+
+        /* =========================
+           COMPETÊNCIAS
+           ========================= */
+
+        .competencias {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+
+        .competencia {
+            padding: 22px;
+            background: #fafafa;
+            border: 1px solid #ddd;
+        }
+
+        .competencia h3 {
+            margin: 0 0 10px;
+            font-size: 17px;
+        }
+
+        .competencia p {
+            margin: 0;
+            color: #555;
+            font-size: 14px;
+        }
+
+
+        /* =========================
+           PROJETOS
+           ========================= */
+
+        .projeto {
+            padding: 22px 0;
+            border-top: 1px solid #ddd;
+        }
+
+        .projeto:first-child {
+            padding-top: 0;
+            border-top: none;
+        }
+
+        .projeto h3 {
+            margin: 0 0 8px;
+            font-size: 19px;
+        }
+
+        .projeto p {
+            max-width: 850px;
+            margin: 0;
+            color: #555;
+        }
+
+
+        /* =========================
+           CONTACTO
+           ========================= */
+
+        .contactos {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 750px;
+        }
+
+        .contacto {
+            padding: 18px;
+            background: #fafafa;
+            border: 1px solid #ddd;
+        }
+
+        .contacto strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contacto a {
+            color: #333;
+            word-break: break-word;
+        }
+
+
+        /* =========================
+           RODAPÉ
+           ========================= */
+
+        footer {
+            padding: 28px 0;
+            background: #222;
+            color: #ddd;
+            font-size: 13px;
+        }
+
+        footer p {
+            margin: 4px 0;
+        }
+
+
+        /* =========================
+           TELEMÓVEL
+           ========================= */
+
+        @media (max-width: 700px) {
+
+            .header-content {
+                display: block;
+            }
+
+            nav {
+                margin-top: 15px;
+            }
+
+            .intro {
+                padding: 50px 0;
+            }
+
+            .intro h1 {
+                font-size: 32px;
+            }
+
+            .intro p {
+                font-size: 17px;
+            }
+
+            .competencias,
+            .contactos {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 45px 0;
+            }
+        }
+
+    </style>
 </head>
 
-<body class="bg-[#0a0a0a] text-zinc-300">
-    <header class="max-w-[1120px] mx-auto px-6 py-7 flex justify-between items-center">
-        <div class="flex items-center gap-3">
-            <div class="w-7 h-7 bg-white text-black grid place-items-center font-bold text-[12px]">GA</div>
-            <span class="font-mono text-[12px] tracking-widest text-zinc-100">GRAÇA ALBERTO / ENGENHEIRO DE PROCESSO</span>
+
+<body>
+
+
+    <!-- =========================
+         CABEÇALHO
+         ========================= -->
+
+    <header>
+
+        <div class="container header-content">
+
+            <div>
+                <p class="nome">Graça Alberto</p>
+
+                <p class="cargo">
+                    Engenheiro de Processos Industriais
+                </p>
+            </div>
+
+
+            <nav>
+
+                <a href="#experiencia">
+                    Experiência
+                </a>
+
+                <a href="#competencias">
+                    Competências
+                </a>
+
+                <a href="#projetos">
+                    Projetos
+                </a>
+
+                <a href="#contacto">
+                    Contacto
+                </a>
+
+            </nav>
+
         </div>
-        <a href="#contact" class="font-mono text-[11px] border border-zinc-800 px-4 py-2 hover:bg-white hover:text-black transition">DISPONÍVEL — LUANDA / REMOTO</a>
+
     </header>
 
-    <main class="max-w-[1120px] mx-auto px-6">
-        <!-- HERO PARA MERCADO EXTERNO -->
-        <section class="py-24 md:py-32">
-            <p class="font-mono text-[11px] text-zinc-500 mb-6">LUANDA, ANGOLA — FMCG / BEBIDAS / ALIMENTAR / INDUSTRIAL</p>
-            <h1 class="text-[40px] md:text-[62px] font-bold leading-[0.9] tracking-tighter text-white max-w-4xl">
-                Eu ajudo fábricas a<br>
-                reduzir refugo e<br>
-                <span class="text-zinc-500">manter rastreabilidade.</span>
-            </h1>
-            <div class="mt-10 grid md:grid-cols-[1.15fr_0.85fr] gap-12">
-                <p class="text-[16px] leading-relaxed text-zinc-400 max-w-[62ch]">
-                    Sou engenheiro de processo com 5 anos de chão de fábrica na Refriango. Trabalho com linhas de envase, KRONES, SIDEL, KHS, CIP, HST e mapas ISO 22000.
-                    Hoje presto serviço como técnico independente para indústrias que precisam de organização de produção, manutenção eletromecânica ou dashboard de produção e perdas.
-                    Não faço instalação residencial. Foco 100% industrial.
+
+
+    <main>
+
+
+        <!-- =========================
+             APRESENTAÇÃO
+             ========================= -->
+
+        <section class="intro">
+
+            <div class="container">
+
+                <h1>
+                    Melhoro processos industriais,
+                    reduzo perdas e transformo dados
+                    de produção em decisões.
+                </h1>
+
+
+                <p>
+                    Engenheiro de Processos Industriais com experiência
+                    de chão de fábrica, produção, manutenção, automação,
+                    qualidade, melhoria contínua e digitalização de processos.
                 </p>
-                <div class="font-mono text-[11px] leading-6 text-zinc-500 border-l border-zinc-900 pl-6">
-                    <p class="text-zinc-300 mb-2">SERVIÇOS PARA EMPRESAS:</p>
-                    <p>→ Auditoria de preenchimento de mapas</p>
-                    <p>→ Treinamento de operadores Fabriel e Supervisores</p>
-                    <p>→ Manutenção preventiva / corretiva</p>
-                    <p>→ Dashboard de Produção em Python/SQL</p>
-                    <p>→ Automação Industrial</p>
-                    <p>→ Comandos electricos e Painel</p>
-                    <p>→ Avaliações de Desempenho</p>
-                </div>
+
+
+                <p class="intro-info">
+                    Luanda, Angola · Experiência em ambiente industrial ·
+                    Aberto a oportunidades na indústria
+                </p>
+
+
+                <a class="botao" href="#contacto">
+                    Ver contacto
+                </a>
+
             </div>
+
         </section>
 
-        <!-- CASE REFRIANGO COMO PROVA SOCIAL, NÃO COMO DEPENDÊNCIA -->
-        <section id="work" class="py-20 border-t border-zinc-900">
-            <div class="flex justify-between items-baseline mb-12">
-                <h2 class="font-mono text-[12px] text-zinc-100">[01] CASE PRINCIPAL — REFRIANGO (2022-2026)</h2>
-                <span class="font-mono text-[11px] text-zinc-600">SUB-SUPERVISOR DE PRODUÇÃO</span>
-                <span class="font-mono text-[11px] text-zinc-600">Operador Tecnico e Especialista</span>
+
+
+        <!-- =========================
+             EXPERIÊNCIA
+             ========================= -->
+
+        <section id="experiencia">
+
+            <div class="container">
+
+                <h2 class="titulo-secao">
+                    Experiência industrial
+                </h2>
+
+
+                <div class="experiencia">
+
+                    <h3>
+                        Produção e melhoria de processos
+                    </h3>
+
+                    <p class="empresa">
+                        Refriango · Experiência de chão de fábrica
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Acompanhamento da produção e análise
+                            do desempenho das linhas.
+                        </li>
+
+                        <li>
+                            Identificação de perdas, refugos e causas
+                            de desvios no processo.
+                        </li>
+
+                        <li>
+                            Elaboração e acompanhamento de mapas
+                            de produção e indicadores.
+                        </li>
+
+                        <li>
+                            Apoio à melhoria contínua e resolução
+                            de problemas no processo produtivo.
+                        </li>
+
+                        <li>
+                            Trabalho em conjunto com operadores,
+                            supervisores e equipas técnicas.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <div class="experiencia">
+
+                    <h3>
+                        Manutenção e automação industrial
+                    </h3>
+
+                    <p class="empresa">
+                        Atuação técnica em equipamentos e linhas de produção
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Manutenção preventiva e corretiva
+                            em equipamentos industriais.
+                        </li>
+
+                        <li>
+                            Diagnóstico de falhas elétricas, mecânicas,
+                            eletrónicas e de automação.
+                        </li>
+
+                        <li>
+                            Intervenções em motores, variadores de frequência,
+                            sensores, relés, contactores, válvulas e atuadores.
+                        </li>
+
+                        <li>
+                            Apoio à identificação de falhas em sistemas
+                            de controlo e equipamentos de produção.
+                        </li>
+
+                        <li>
+                            Experiência com equipamentos e linhas Krones,
+                            Sidel, KHS, AND&amp;OR e sistemas CIP.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <div class="experiencia">
+
+                    <h3>
+                        Qualidade, HST e melhoria contínua
+                    </h3>
+
+                    <p class="empresa">
+                        Integração com as atividades de produção
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Aplicação de práticas de 5S e melhoria contínua
+                            no ambiente industrial.
+                        </li>
+
+                        <li>
+                            Acompanhamento de requisitos relacionados
+                            com qualidade e segurança.
+                        </li>
+
+                        <li>
+                            Atuação sobre rastreabilidade e controlo
+                            dos registos de produção.
+                        </li>
+
+                        <li>
+                            Contacto com processos relacionados
+                            com ISO 22000.
+                        </li>
+
+                        <li>
+                            Formação e orientação de operadores
+                            e supervisores.
+                        </li>
+
+                    </ul>
+
+                </div>
+
             </div>
-            <div class="bg-zinc-900 h-[1px] w-full mb-[1px]"></div>
-            <div class="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-zinc-900 bg-zinc-900 gap-[1px]">
-                <div class="bg-[#0a0a0a] p-7">
-                    <span class="font-mono text-[10px] text-zinc-500">RASTREABILIDADE</span>
-                    <h3 class="text-white font-medium mt-3">Zero NC em auditoria</h3>
-                    <p class="text-zinc-500 text-[13px] mt-2 leading-relaxed">Desenvolvi meu próprio App de preenchimento de mapas de Produção manuais para Digitais, de modo aumentar a eficiência dos relatorios e lançamento de dados. Modelo replicado em sistema windows, android e web para operadores e supervisores.</p>
-                <p class="text-zinc-500 text-[13px] mt-2 leading-relaxed">Desenvolvi Calendario para todas as industrias que têm o modelo de trabalho rotação ou regime de turnos (4 ou 3 ou 2 Turnos), de modo a facilitar o operador e a chefia acompahar o dia de trabalho semanal, facilitando a consulta  de um determinado dia de qualquer més se sera folga ou dia de trabalho </p>
-                </div>
-                <div class="bg-[#0a0a0a] p-7">
-                    <span class="font-mono text-[10px] text-zinc-500">EFICIÊNCIA</span>
-                    <h3 class="text-white font-medium mt-3">-0.7% de refugo</h3>
-                    <p class="text-zinc-500 text-[13px] mt-2 leading-relaxed">Interveção mecânica e electrica nas linhas Krones, Sidel, KHS, And & Or, Garlliado, ajustes de engrenagens, Cilindros, rolamentos, guias, transportes, valvulas, electrovalvulas, juntas, reles, Contactores, Disjuntor-Motor, Servo-Drives, VDF e Sensores.</p>
-                <p class="text-zinc-500 text-[13px] mt-2 leading-relaxed">Feedback diagnostico de Avarias diversas a equipa técnica</p>
-                </div>
-                <div class="bg-[#0a0a0a] p-7">
-                    <span class="font-mono text-[10px] text-zinc-500">CONTINUIDADE</span>
-                    <h3 class="text-white font-medium mt-3">Operação degradada</h3>
-                    <p class="text-zinc-500 text-[13px] mt-2 leading-relaxed">Assumi controle manual quando PLC, sensores e rede Profnet, falharam. Finalizei lote de garrafas e evitei perda e paragem da linha.</p>
-                </div>
-            </div>
+
         </section>
 
-        <!-- STACK QUE VENDE FORA -->
-        <section id="stack" class="py-20 border-t border-zinc-900">
-            <h2 class="font-mono text-[12px] text-zinc-100 mb-10">[02] O QUE EU ENTREGO PARA OUTRAS INDÚSTRIAS</h2>
-            <div class="grid md:grid-cols-3 gap-[1px] bg-zinc-900">
-                <div class="bg-[#0a0a0a] p-7">
-                    <h3 class="text-white text-sm font-medium mb-4">Para Gerente de Produção</h3>
-                    <p class="font-mono text-[12px] leading-6 text-zinc-500">
-                    Organização de mapas<br>
-                    Redução de perdas<br>
-                    Treinamento de equipe<br>
-                    Relatório técnico de turno<br>
-                    HST / 5s / CQ<br>
-                    Avaliação de Desempenho<br>
-                    Feedback de Avaria + diagnostico<br>
-                    Interveção em avarias<br>
-                    <span class="text-zinc-300">→ Ideal para FMCG / Bebidas / Alimentos / outras</span>
-                    </p>
+
+
+        <!-- =========================
+             COMPETÊNCIAS
+             ========================= -->
+
+        <section id="competencias">
+
+            <div class="container">
+
+                <h2 class="titulo-secao">
+                    Competências profissionais
+                </h2>
+
+
+                <div class="competencias">
+
+
+                    <div class="competencia">
+
+                        <h3>
+                            Processos e produção
+                        </h3>
+
+                        <p>
+                            Acompanhamento de produção, análise de perdas,
+                            redução de refugos, indicadores, resolução de
+                            problemas e melhoria do desempenho das linhas.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="competencia">
+
+                        <h3>
+                            Manutenção industrial
+                        </h3>
+
+                        <p>
+                            Manutenção preventiva e corretiva, diagnóstico
+                            de falhas e apoio técnico em sistemas elétricos,
+                            mecânicos e de automação.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="competencia">
+
+                        <h3>
+                            Automação
+                        </h3>
+
+                        <p>
+                            Sensores, atuadores, inversores, sistemas de
+                            controlo, diagnóstico de falhas e acompanhamento
+                            de equipamentos automatizados.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="competencia">
+
+                        <h3>
+                            Melhoria contínua
+                        </h3>
+
+                        <p>
+                            5S, análise de problemas, identificação de
+                            desperdícios, acompanhamento de indicadores
+                            e procura de soluções práticas para o processo.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="competencia">
+
+                        <h3>
+                            Qualidade e rastreabilidade
+                        </h3>
+
+                        <p>
+                            Registos de produção, mapas, rastreabilidade,
+                            controlo de informação e apoio aos requisitos
+                            de qualidade.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="competencia">
+
+                        <h3>
+                            Dados e ferramentas digitais
+                        </h3>
+
+                        <p>
+                            Excel, Power BI, Python e SQL aplicados à
+                            organização, análise e visualização de dados
+                            relacionados com a produção.
+                        </p>
+
+                    </div>
+
+
                 </div>
-                <div class="bg-[#0a0a0a] p-7">
-                    <h3 class="text-white text-sm font-medium mb-4">Para Manutenção</h3>
-                    <p class="font-mono text-[12px] leading-6 text-zinc-500">
-                    Preventiva e corretiva em Linhas<br>
-                    Quadros e comandos<br>
-                    Motores e inversores<br>
-                    Diagnóstico elétrico<br>
-                    Electromecânica e Automação<br>
-                    <span class="text-zinc-300">→ Ideal para fábricas em geral</span>
-                    </p>
-                </div>
-                <div class="bg-[#0a0a0a] p-7">
-                    <h3 class="text-white text-sm font-medium mb-4">Para Direção / TI</h3>
-                    <p class="font-mono text-[12px] leading-6 text-zinc-500">
-                    Dashboard de perdas (Python)<br>
-                    Excel avançado e Power BI p/ produção<br>
-                    API p/ rastreabilidade<br>
-                    Suporte Sistemas / Redes ind.<br>
-                    <span class="text-zinc-300">→ Ideal p/ Indústria 4.0</span>
-                    </p>
-                </div>
+
             </div>
+
         </section>
 
-        <!-- CONTACTO DUAL -->
-        <section id="contact" class="py-24 border-t border-zinc-900">
-            <div class="grid md:grid-cols-2 gap-16">
-                <div>
-                    <h2 class="text-[32px] font-bold tracking-tighter text-white leading-none">Trabalhando dentro da Refriango, aberto a projetos externos.</h2>
-                    <p class="font-mono text-[12px] text-zinc-500 mt-6 leading-relaxed">Se és uma indústria em Luanda, Viana, Cacuaco, Zona Económica ou não nacional e precisa de técnico que já viveu chão de fábrica, me contacte. Orçamento por escopo, não por hora.</p>
+
+
+        <!-- =========================
+             PROJETOS
+             ========================= -->
+
+        <section id="projetos">
+
+            <div class="container">
+
+                <h2 class="titulo-secao">
+                    Projetos e digitalização
+                </h2>
+
+
+
+                <div class="projeto">
+
+                    <h3>
+                        Digitalização do mapa de produção
+                    </h3>
+
+                    <p>
+                        Desenvolvimento de uma solução para transformar
+                        o preenchimento manual dos mapas de produção
+                        em registos digitais. A ideia foi facilitar o
+                        registo, consulta e acompanhamento das informações
+                        por operadores e supervisores.
+                    </p>
+
                 </div>
-                <div class="font-mono text-[13px] space-y-4">
-                    <a href="https://wa.me/244956360304" class="flex justify-between border border-zinc-800 p-4 hover:bg-white hover:text-black transition"><span>WhatsApp / Ligação</span><span>+244 956 360 304</span></a>
-                    <a href="mailto:graca.alberto.ind@gmail.com" class="flex justify-between border border-zinc-800 p-4 hover:bg-white hover:text-black transition"><span>E-mail profissional</span><span>graca.alberto.ind@gmail.com</span></a>
-                    <a href="https://github.com/graaalberto" target="_blank" class="flex justify-between border border-zinc-800 p-4 hover:bg-white hover:text-black transition"><span>GitHub / Projetos</span><span>graaalberto</span></a>
-                    <p class="text-[11px] text-zinc-600 pt-4">Local: Viana, Luanda. Atendo presencial em Luanda e remoto para resto de Angola.</p>
+
+
+
+                <div class="projeto">
+
+                    <h3>
+                        Rastreabilidade e informação de produção
+                    </h3>
+
+                    <p>
+                        Organização de dados de produção e criação de
+                        ferramentas para melhorar a consulta de informações,
+                        o acompanhamento dos lotes e a rastreabilidade
+                        do processo.
+                    </p>
+
                 </div>
+
+
+
+                <div class="projeto">
+
+                    <h3>
+                        Calendário de turnos
+                    </h3>
+
+                    <p>
+                        Desenvolvimento de uma ferramenta para facilitar
+                        a consulta de escalas de trabalho em diferentes
+                        modelos de turnos, permitindo visualizar os dias
+                        de trabalho e folga dos operadores.
+                    </p>
+
+                </div>
+
+
+
+                <div class="projeto">
+
+                    <h3>
+                        Indicadores e acompanhamento da produção
+                    </h3>
+
+                    <p>
+                        Utilização de ferramentas digitais para organizar
+                        dados, acompanhar indicadores e apoiar a análise
+                        do desempenho das operações.
+                    </p>
+
+                </div>
+
             </div>
+
         </section>
-    </main>
-<p class="sr-only">
-Engenheiro de processo industrial disponível em Luanda, Viana, Cacuaco, Zona Económica Especial, Bengo e outras provincias. 
-Serviços técnicos para indústrias de bebidas, alimentar, FMCG e outras em Angola. 
-Ex Refriango com experiência em Krones, Sidel, KHS, ISO 22000.
-</p>
-    <footer class="max-w-[1120px] mx-auto px-6 py-8 border-t border-zinc-900 flex justify-between font-mono text-[10px] text-zinc-600">
-        <span>© 2026 Graça Alberto — Eng. de Processo Industrial</span>
-        <span>REF: Refriango / ABO Capital / FMCG Angola</span>
-    </footer>
-</body>
-</html>
+
+
+
+        <!-- =========================
+             FORMA DE TRABALHO
+             ========================= -->
+
+        <section>
+
+            <div class="container">
+
+                <h2 class="titulo-secao">
+                    Forma de trabalho
+                </h2>
+
+
+                <p class="texto">
+                    A minha experiência foi construída principalmente
+                    no ambiente industrial, onde produção, manutenção,
+                    qualidade e automação estão diretamente ligados.
+                    Procuro compreender primeiro o problema no processo,
+                    trabalhar com a equipa envolvida e utilizar os dados
+                    disponíveis para encontrar uma solução prática.
+                </p>
+
+
+                <p class="texto">
+                    Tenho particular interesse por funções relacionadas
+                    com engenharia de processos, produção, melhoria contínua,
+                    operações e desenvolvimento de soluções para melhorar
+                    o controlo e o desempenho industrial.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CONTACTO
+             ========================= -->
+
+        <section id="contacto">
+
+            <div class="container">
+
+                <h2 class="titulo-secao">
+                    Contacto
+                </h2>
+
+
+                <p class="texto">
+                    Estou aberto a oportunidades profissionais na indústria,
+                    especialmente nas áreas de processos, produção,
+                    melhoria contínua e operações.
+                </p>
+
+
+                <div class="contactos">
+
+
+                    <div class="contacto">
+
+                        <strong>
+                            Localização
+                        </strong>
+
+               
