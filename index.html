@@ -1,41 +1,186 @@
 <!DOCTYPE html>
 <html lang="pt-AO">
+
 <head>
+
+    <!-- ==============================
+         CONFIGURAÇÕES BÁSICAS
+         ============================== -->
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>
+        Graça Alberto | Engenheiro de Processos Industriais em Angola
+    </title>
+
     <meta name="description"
-          content="Portfólio profissional de Graça Alberto, Engenheiro de Processos Industriais.">
+        content="Portfólio profissional de Graça Alberto, Engenheiro de Processos Industriais em Luanda, Angola, com experiência em produção, melhoria contínua, manutenção, automação, qualidade e digitalização industrial.">
 
     <meta name="author" content="Graça Alberto">
 
-    <title>Graça Alberto | Engenheiro de Processos Industriais</title>
+    <meta name="robots" content="index, follow">
+
+    <meta name="theme-color" content="#222222">
+
+
+    <!-- ==============================
+         URL CANÓNICA
+         ============================== -->
+
+    <link rel="canonical" href="https://graaa-enginner.it.ao/">
+
+
+    <!-- no
+         OPEN GRAPH
+         Usado principalmente em partilhas
+         no WhatsApp, Facebook e LinkedIn.
+         ============================== -->
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:locale" content="pt_AO">
+
+    <meta property="og:title" content="Graça Alberto | Engenheiro de Processos Industriais">
+
+    <meta property="og:description"
+        content="Portfólio profissional de Graça Alberto, com experiência em processos industriais, produção, melhoria contínua, manutenção, automação e digitalização.">
+
+    <meta property="og:url" content="https://graaa-enginner.it.ao/">
+
+    <meta property="og:site_name" content="Graça Alberto">
+
+    <!--
+        Coloque uma imagem própria nesta localização:
+
+        /img/og-image.jpg
+
+        Recomendo uma imagem horizontal simples,
+        aproximadamente 1200 x 630 px.
+    -->
+
+    <meta property="og:image" content="https://graaa-enginner.it.ao/img/og-image.jpg">
+
+    <meta property="og:image:alt"
+        content="Portfólio profissional de Graça Alberto, Engenheiro de Processos Industriais">
+
+
+    <!-- ==============================
+         TWITTER / X
+         ============================== -->
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:title" content="Graça Alberto | Engenheiro de Processos Industriais">
+
+    <meta name="twitter:description"
+        content="Engenheiro de Processos Industriais com experiência em produção, melhoria contínua, manutenção, automação e digitalização industrial.">
+
+    <meta name="twitter:image" content="https://graaa-enginner.it.ao/img/og-image.jpg">
+
+
+    <!-- ==============================
+         FAVICON
+         ============================== -->
+
+    <!--
+        Opcional.
+
+        Se criar um favicon, coloque-o em:
+
+        /img/favicon.png
+    -->
+
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+
+
+    <!-- ==============================
+         DADOS ESTRUTURADOS
+         JSON-LD
+         ============================== -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+
+        "name": "Graça Alberto",
+
+        "url": "https://graaa-enginner.it.ao/",
+
+        "jobTitle": "Engenheiro de Processos Industriais",
+
+        "description": "Engenheiro de Processos Industriais com experiência em produção, melhoria contínua, manutenção industrial, automação, qualidade, rastreabilidade e digitalização de processos.",
+
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Luanda",
+            "addressCountry": "AO"
+        },
+
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Refriango"
+        },
+
+        "knowsAbout": [
+            "Engenharia de Processos Industriais",
+            "Produção Industrial",
+            "Melhoria Contínua",
+            "Manutenção Industrial",
+            "Automação Industrial",
+            "Qualidade",
+            "Rastreabilidade",
+            "5S",
+            "ISO 22000",
+            "Análise de Dados Industriais",
+            "Power BI",
+            "Excel",
+            "Python",
+            "SQL"
+        ],
+
+        "sameAs": [
+            "https://github.com/graaalberto"
+        ]
+    }
+    </script>
+
+
+    <!-- ==============================
+         ESTILOS
+         ============================== -->
 
     <style>
-
-        /* =========================
-           CONFIGURAÇÕES GERAIS
-           ========================= */
-
         * {
             box-sizing: border-box;
         }
+
 
         html {
             scroll-behavior: smooth;
         }
 
+
         body {
             margin: 0;
             background: #f5f5f5;
             color: #222;
-            font-family: Arial, Helvetica, sans-serif;
+
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
             line-height: 1.6;
         }
+
 
         a {
             color: inherit;
         }
+
 
         .container {
             width: 92%;
@@ -44,15 +189,16 @@
         }
 
 
-        /* =========================
+        /* ==============================
            CABEÇALHO
-           ========================= */
+           ============================== */
 
         header {
             background: #fff;
             border-bottom: 1px solid #ddd;
             padding: 22px 0;
         }
+
 
         .header-content {
             display: flex;
@@ -61,11 +207,13 @@
             gap: 25px;
         }
 
+
         .nome {
             margin: 0;
             font-size: 22px;
             font-weight: 700;
         }
+
 
         .cargo {
             margin: 3px 0 0;
@@ -73,11 +221,13 @@
             font-size: 14px;
         }
 
+
         nav {
             display: flex;
             flex-wrap: wrap;
             gap: 18px;
         }
+
 
         nav a {
             color: #444;
@@ -85,14 +235,15 @@
             text-decoration: none;
         }
 
+
         nav a:hover {
             text-decoration: underline;
         }
 
 
-        /* =========================
+        /* ==============================
            APRESENTAÇÃO
-           ========================= */
+           ============================== */
 
         .intro {
             background: #fff;
@@ -100,60 +251,99 @@
             border-bottom: 1px solid #ddd;
         }
 
+
+        .intro-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 35px;
+        }
+
+
         .intro h1 {
             max-width: 850px;
             margin: 0 0 18px;
+
             font-size: 42px;
             line-height: 1.15;
             font-weight: 700;
         }
 
+
         .intro p {
             max-width: 760px;
             margin: 0;
+
             color: #555;
             font-size: 19px;
         }
 
+
         .intro-info {
             margin-top: 28px !important;
+
             color: #666 !important;
             font-size: 14px !important;
         }
 
+
         .botao {
             display: inline-block;
+
             margin-top: 25px;
             padding: 11px 17px;
+
             background: #222;
             color: #fff;
+
             border-radius: 3px;
+
             text-decoration: none;
             font-size: 14px;
         }
+
 
         .botao:hover {
             background: #444;
         }
 
 
-        /* =========================
+        /* ==============================
+           IMAGEM OPCIONAL
+           ============================== */
+
+        .imagem-intro {
+            width: 100%;
+            max-width: 700px;
+
+            display: block;
+
+            margin-top: 30px;
+
+            border: 1px solid #ddd;
+        }
+
+
+        /* ==============================
            SEÇÕES
-           ========================= */
+           ============================== */
 
         section {
             padding: 60px 0;
         }
 
+
         section:nth-child(even) {
             background: #fff;
         }
 
+
         .titulo-secao {
             margin: 0 0 28px;
+
             font-size: 26px;
             font-weight: 700;
         }
+
 
         .texto {
             max-width: 850px;
@@ -161,113 +351,143 @@
         }
 
 
-        /* =========================
+        /* ==============================
            EXPERIÊNCIA
-           ========================= */
+           ============================== */
 
         .experiencia {
             margin-bottom: 35px;
             padding-left: 22px;
+
             border-left: 3px solid #333;
         }
+
 
         .experiencia h3 {
             margin: 0;
             font-size: 20px;
         }
 
+
         .empresa {
             margin: 3px 0 15px;
+
             color: #666;
             font-size: 14px;
         }
 
+
         .experiencia ul {
             margin: 0;
             padding-left: 20px;
+
             color: #444;
         }
+
 
         .experiencia li {
             margin-bottom: 8px;
         }
 
 
-        /* =========================
+        /* ==============================
            COMPETÊNCIAS
-           ========================= */
+           ============================== */
 
         .competencias {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+
+            grid-template-columns:
+                repeat(2, 1fr);
+
             gap: 24px;
         }
 
+
         .competencia {
             padding: 22px;
+
             background: #fafafa;
+
             border: 1px solid #ddd;
         }
+
 
         .competencia h3 {
             margin: 0 0 10px;
             font-size: 17px;
         }
 
+
         .competencia p {
             margin: 0;
+
             color: #555;
             font-size: 14px;
         }
 
 
-        /* =========================
+        /* ==============================
            PROJETOS
-           ========================= */
+           ============================== */
 
         .projeto {
             padding: 22px 0;
+
             border-top: 1px solid #ddd;
         }
+
 
         .projeto:first-child {
             padding-top: 0;
             border-top: none;
         }
 
+
         .projeto h3 {
             margin: 0 0 8px;
             font-size: 19px;
         }
 
+
         .projeto p {
             max-width: 850px;
             margin: 0;
+
             color: #555;
         }
 
 
-        /* =========================
+        /* ==============================
            CONTACTO
-           ========================= */
+           ============================== */
 
         .contactos {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+
+            grid-template-columns:
+                repeat(2, 1fr);
+
             gap: 20px;
+
             max-width: 750px;
         }
 
+
         .contacto {
             padding: 18px;
+
             background: #fafafa;
+
             border: 1px solid #ddd;
         }
+
 
         .contacto strong {
             display: block;
             margin-bottom: 5px;
         }
+
 
         .contacto a {
             color: #333;
@@ -275,25 +495,28 @@
         }
 
 
-        /* =========================
+        /* ==============================
            RODAPÉ
-           ========================= */
+           ============================== */
 
         footer {
             padding: 28px 0;
+
             background: #222;
             color: #ddd;
+
             font-size: 13px;
         }
+
 
         footer p {
             margin: 4px 0;
         }
 
 
-        /* =========================
+        /* ==============================
            TELEMÓVEL
-           ========================= */
+           ============================== */
 
         @media (max-width: 700px) {
 
@@ -301,55 +524,68 @@
                 display: block;
             }
 
+
             nav {
                 margin-top: 15px;
             }
+
 
             .intro {
                 padding: 50px 0;
             }
 
+
             .intro h1 {
                 font-size: 32px;
             }
 
+
             .intro p {
                 font-size: 17px;
             }
+
 
             .competencias,
             .contactos {
                 grid-template-columns: 1fr;
             }
 
+
             section {
                 padding: 45px 0;
             }
-        }
 
+        }
     </style>
+
 </head>
+
 
 <body>
 
 
-    <!-- =========================
+    <!-- ==============================
          CABEÇALHO
-         ========================= -->
+         ============================== -->
 
     <header>
 
         <div class="container header-content">
 
             <div>
-                <p class="nome">Graça Alberto</p>
+
+                <p class="nome">
+                    Graça Alberto
+                </p>
 
                 <p class="cargo">
                     Engenheiro de Processos Industriais
                 </p>
+
             </div>
 
-            <nav>
+
+            <nav aria-label="Navegação principal">
 
                 <a href="#experiencia">
                     Experiência
@@ -373,47 +609,84 @@
 
     </header>
 
+
+
     <main>
 
 
-        <!-- =========================
+        <!-- ==============================
              APRESENTAÇÃO
-             ========================= -->
+             ============================== -->
 
         <section class="intro">
 
-            <div class="container">
+            <div class="container intro-content">
 
-                <h1>
-                    Melhoro processos industriais,
-                    reduzo perdas e transformo dados
-                    de produção em decisões.
-                </h1>
+                <div>
 
-
-                <p>
-                    Engenheiro de Processos Industriais com experiência
-                    de chão de fábrica, produção, manutenção, automação,
-                    qualidade, melhoria contínua e digitalização de processos.
-                </p>
+                    <h1>
+                        Engenheiro de Processos Industriais
+                    </h1>
 
 
-                <p class="intro-info">
-                    Luanda, Angola · Experiência em ambiente industrial ·
-                    Aberto a oportunidades na indústria
-                </p>
+                    <p>
+                        Melhoro processos industriais, reduzo perdas
+                        e transformo dados de produção em decisões.
+                    </p>
 
 
-                <a class="botao" href="#contacto">
-                    Ver contacto
-                </a>
+                    <p class="intro-info">
+
+                        Luanda, Angola · Experiência em ambiente industrial
+                        · Aberto a oportunidades na indústria
+
+                    </p>
+
+
+                    <a class="botao" href="#contacto">
+                        Ver contacto
+                    </a>
+
+                </div>
+
+
+                <!--
+                    IMAGEM OPCIONAL
+
+                    Se quiser utilizar a imagem gerada,
+                    coloque o ficheiro dentro de:
+
+                    /img/ambiente-industrial.jpg
+
+                    e retire o comentário abaixo.
+
+                    Recomendo usar uma fotografia sua real
+                    futuramente, caso queira personalizar
+                    ainda mais o portfólio.
+                -->
+
+                <!--
+
+                <img
+                    class="imagem-intro"
+                    src="img/ambiente-industrial.jpg"
+                    alt="Ambiente industrial e linha de produção"
+                    width="1200"
+                    height="700"
+                    loading="eager"
+                >
+
+                -->
 
             </div>
 
         </section>
-        <!-- =========================
+
+
+
+        <!-- ==============================
              EXPERIÊNCIA
-             ========================= -->
+             ============================== -->
 
         <section id="experiencia">
 
@@ -466,6 +739,8 @@
 
                 </div>
 
+
+
                 <div class="experiencia">
 
                     <h3>
@@ -507,6 +782,9 @@
                     </ul>
 
                 </div>
+
+
+
                 <div class="experiencia">
 
                     <h3>
@@ -553,9 +831,11 @@
 
         </section>
 
-        <!-- =========================
+
+
+        <!-- ==============================
              COMPETÊNCIAS
-             ========================= -->
+             ============================== -->
 
         <section id="competencias">
 
@@ -564,6 +844,8 @@
                 <h2 class="titulo-secao">
                     Competências profissionais
                 </h2>
+
+
                 <div class="competencias">
 
 
@@ -580,6 +862,9 @@
                         </p>
 
                     </div>
+
+
+
                     <div class="competencia">
 
                         <h3>
@@ -593,6 +878,9 @@
                         </p>
 
                     </div>
+
+
+
                     <div class="competencia">
 
                         <h3>
@@ -606,12 +894,14 @@
                         </p>
 
                     </div>
+
+
+
                     <div class="competencia">
 
                         <h3>
                             Melhoria contínua
                         </h3>
-
                         <p>
                             5S, análise de problemas, identificação de
                             desperdícios, acompanhamento de indicadores
@@ -619,6 +909,9 @@
                         </p>
 
                     </div>
+
+
+
                     <div class="competencia">
 
                         <h3>
@@ -632,6 +925,9 @@
                         </p>
 
                     </div>
+
+
+
                     <div class="competencia">
 
                         <h3>
@@ -645,15 +941,19 @@
                         </p>
 
                     </div>
+
+
                 </div>
 
             </div>
 
         </section>
 
-        <!-- =========================
+
+
+        <!-- ==============================
              PROJETOS
-             ========================= -->
+             ============================== -->
 
         <section id="projetos">
 
@@ -662,6 +962,7 @@
                 <h2 class="titulo-secao">
                     Projetos e digitalização
                 </h2>
+
 
                 <div class="projeto">
 
@@ -679,6 +980,8 @@
 
                 </div>
 
+
+
                 <div class="projeto">
 
                     <h3>
@@ -694,6 +997,8 @@
 
                 </div>
 
+
+
                 <div class="projeto">
 
                     <h3>
@@ -708,57 +1013,94 @@
                     </p>
 
                 </div>
+
+
+
                 <div class="projeto">
 
                     <h3>
                         Indicadores e acompanhamento da produção
                     </h3>
+
                     <p>
                         Utilização de ferramentas digitais para organizar
                         dados, acompanhar indicadores e apoiar a análise
                         do desempenho das operações.
                     </p>
+
                 </div>
+
             </div>
+
         </section>
-        <!-- =========================
+
+
+
+        <!-- ==============================
              FORMA DE TRABALHO
-             ========================= -->
+             ============================== -->
+
         <section>
+
             <div class="container">
+
                 <h2 class="titulo-secao">
                     Forma de trabalho
                 </h2>
+
+
                 <p class="texto">
+
                     A minha experiência foi construída principalmente
                     no ambiente industrial, onde produção, manutenção,
                     qualidade e automação estão diretamente ligados.
                     Procuro compreender primeiro o problema no processo,
                     trabalhar com a equipa envolvida e utilizar os dados
                     disponíveis para encontrar uma solução prática.
+
                 </p>
+
+
                 <p class="texto">
+
                     Tenho particular interesse por funções relacionadas
                     com engenharia de processos, produção, melhoria contínua,
                     operações e desenvolvimento de soluções para melhorar
                     o controlo e o desempenho industrial.
+
                 </p>
+
             </div>
+
         </section>
-        <!-- =========================
+
+
+
+        <!-- ==============================
              CONTACTO
-             ========================= -->
+             ============================== -->
+
         <section id="contacto">
+
             <div class="container">
+
                 <h2 class="titulo-secao">
                     Contacto
                 </h2>
+
+
                 <p class="texto">
+
                     Estou aberto a oportunidades profissionais na indústria,
                     especialmente nas áreas de processos, produção,
                     melhoria contínua e operações.
+
                 </p>
+
+
                 <div class="contactos">
+
+
                     <div class="contacto">
 
                         <strong>
@@ -766,17 +1108,27 @@
                         </strong>
 
                         Luanda, Angola
+
                     </div>
+
+
+
                     <div class="contacto">
 
                         <strong>
                             WhatsApp / Telefone
                         </strong>
+
                         <a href="tel:+244956360304">
                             +244 956 360 304
                         </a>
+
                     </div>
+
+
+
                     <div class="contacto">
+
                         <strong>
                             E-mail
                         </strong>
@@ -784,37 +1136,55 @@
                         <a href="mailto:graca.alberto.ind@gmail.com">
                             graca.alberto.ind@gmail.com
                         </a>
+
                     </div>
+
+
+
                     <div class="contacto">
+
                         <strong>
                             GitHub
                         </strong>
-                        <a
-                            href="https://github.com/graaalberto"
-                            target="_blank"
-                            rel="noopener"
-                        >
+
+                        <a href="https://github.com/graaalberto" target="_blank" rel="noopener">
                             github.com/graaalberto
                         </a>
+
                     </div>
 
+
                 </div>
+
             </div>
+
         </section>
+
     </main>
-    <!-- =========================
+
+
+
+    <!-- ==============================
          RODAPÉ
-         ========================= -->
+         ============================== -->
+
     <footer>
+
         <div class="container">
+
             <p>
                 Graça Alberto — Engenheiro de Processos Industriais
             </p>
+
             <p>
                 Luanda, Angola · Portfólio profissional
             </p>
+
         </div>
+
     </footer>
+
+
 </body>
+
 </html>
-                    
