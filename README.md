@@ -56,12 +56,12 @@ Combinando experiência operacional em ambiente fabril e desenvolvimento de apli
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![Eletromecânica](https://img.shields.io/badge/Manutenção_Eletromecânica-FF9100?style=flat-square)
 ![HST](https://img.shields.io/badge/Segurança_HSE%2FHST-00E676?style=flat-square)
-https://img.shields.io/badge/Node--RED-8F0000?style=flat-square&logo=nodered&logoColor=white
-https://img.shields.io/badge/CODESYS-FF0000?style=flat-square&logoColor=white
-https://img.shields.io/badge/LOGO!_Soft_Comfort-009999?style=flat-square&logo=siemens&logoColor=white
-https://img.shields.io/badge/Ignition-F36F21?style=flat-square&logoColor=white
-https://img.shields.io/badge/OpenPLC-4CAF50?style=flat-square&logoColor=white
-https://img.shields.io/badge/CIMON-CICON-CANVAS-1565C0?style=flat-square&logoColor=white
+![Node-RED](https://img.shields.io/badge/Node--RED-8F0000?style=flat-square&logo=nodered&logoColor=white)
+![CODESYS](https://img.shields.io/badge/CODESYS-FF0000?style=flat-square&logoColor=white)
+![LOGO! Soft Comfort](https://img.shields.io/badge/LOGO!_Soft_Comfort-009999?style=flat-square&logo=siemens&logoColor=white)
+![Ignition](https://img.shields.io/badge/Ignition-F36F21?style=flat-square&logoColor=white)
+![OpenPLC](https://img.shields.io/badge/OpenPLC-4CAF50?style=flat-square&logoColor=white)
+![CIMON/CICON/CANVAS](https://img.shields.io/badge/CIMON-CICON-CANVAS-1565C0?style=flat-square&logoColor=white)
 ---
 
 ### 📈 Estatísticas do GitHub
