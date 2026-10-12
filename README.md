@@ -67,7 +67,7 @@ Combinando experiência operacional em ambiente fabril e desenvolvimento de apli
 ![LOGO! Soft Comfort](https://img.shields.io/badge/LOGO!_Soft_Comfort-009999?style=flat-square&logo=siemens&logoColor=white)
 ![Ignition](https://img.shields.io/badge/Ignition-F36F21?style=flat-square)
 ![OpenPLC](https://img.shields.io/badge/OpenPLC-4CAF50?style=flat-square)
-![CIMON](https://img.shields.io/badge/CIMON--CICON--CANVAS-1565C0?style=flat-square)
+![CIMON](https://img.shields.io/badge/CIMON-1565C0?style=flat-square)
 
 ---
 
