@@ -1,4 +1,4 @@
-# ⚙️ Graça Alberto | Consultoria Técnica & Engenharia de Software
+<img width="4032" height="1082" alt="image" src="https://github.com/user-attachments/assets/acacc581-9882-4476-acf4-c91a1a848499" /># ⚙️ Graça Alberto | Consultoria Técnica & Engenharia de Software
 
 <div align="center">
 
@@ -50,18 +50,18 @@ Combinando experiência operacional em ambiente fabril e desenvolvimento de apli
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 #### ⚙️ Automação, Eletrotécnica & Sistemas
+
 ![Siemens](https://img.shields.io/badge/Siemens-009999?style=flat-square&logo=siemens&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![Eletromecânica](https://img.shields.io/badge/Manutenção_Eletromecânica-FF9100?style=flat-square)
 ![HST](https://img.shields.io/badge/Segurança_HSE%2FHST-00E676?style=flat-square)
-![Node-Red]
-![Codesys]
-![Logosoft]
-![ignition]
-![OpenPLC]
-![CIMON-CICON-CANVAS]
-
+https://img.shields.io/badge/Node--RED-8F0000?style=flat-square&logo=nodered&logoColor=white
+https://img.shields.io/badge/CODESYS-FF0000?style=flat-square&logoColor=white
+https://img.shields.io/badge/LOGO!_Soft_Comfort-009999?style=flat-square&logo=siemens&logoColor=white
+https://img.shields.io/badge/Ignition-F36F21?style=flat-square&logoColor=white
+https://img.shields.io/badge/OpenPLC-4CAF50?style=flat-square&logoColor=white
+https://img.shields.io/badge/CIMON-CICON-CANVAS-1565C0?style=flat-square&logoColor=white
 ---
 
 ### 📈 Estatísticas do GitHub
