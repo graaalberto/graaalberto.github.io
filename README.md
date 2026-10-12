@@ -99,8 +99,3 @@ Estou disponível para consultorias, desenvolvimento de projetos e serviços té
 
 ---
 
-<div align="center">
-
-Desenvolvido por **Graça Alberto**
-
-</div>
