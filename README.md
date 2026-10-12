@@ -1,7 +1,5 @@
 # ⚙️ Graça Alberto | Consultoria Técnica & Engenharia de Processo Industrial
 
-![Banner](https://github.com/user-attachments/assets/acacc581-9882-4476-acf4-c91a1a848499)
-
 <div align="center">
 
 ![Perfil](https://img.shields.io/badge/Perfil-Multidisciplinar-00F5FF?style=for-the-badge)
