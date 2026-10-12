@@ -18,7 +18,7 @@ Combinando experiência operacional em ambiente fabril e desenvolvimento de apli
 
 * 🏬 **Atuação Industrial:** Experiência prática em operação fabril especializada, intervenções eletromecânicas e implementação de normas HST.
 * 💻 **Desenvolvimento:** Construção de ecossistemas Web, Mobile, Desktop, APIs REST e sistemas de monitorização em tempo real.
-* 🎓 **Formação:** Formador técnico nas áreas de programação, elétrica, eletrónica e sistemas de suporte.
+* 🎓 **Formação:** Formador técnico nas áreas de programação, Automação, Comando electrico, eletrônica, operadores fabril e supervisores.
 
 ---
 
@@ -30,7 +30,6 @@ Combinando experiência operacional em ambiente fabril e desenvolvimento de apli
 | **⚡ Eletromecânica & Manutenção** | Manutenção preventiva e corretiva fabril, motores, painéis elétricos e cumprimento de normas HSE/HST. |
 | **🔌 Instalações Elétricas** | Dimensionamento de redes elétricas residenciais, prediais e industriais, quadros de comando e automação. |
 | **🌐 Redes, TI & Hardware** | Infraestrutura LAN/WLAN, configuração de routers/switches, manutenção de computadores, dispositivos e microeletrónica. |
-| **📹 Segurança Eletrónica** | Instalação e manutenção de sistemas CCTV, câmaras IP e controlo de acessos. |
 | **👨‍🏫 Formação & Consultoria** | Formações técnicas corporativas (Programação, TI e Elétrica), supervisão de equipas e relatórios de produção. |
 
 ---
@@ -54,9 +53,14 @@ Combinando experiência operacional em ambiente fabril e desenvolvimento de apli
 ![Siemens](https://img.shields.io/badge/Siemens-009999?style=flat-square&logo=siemens&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
-![CCTV](https://img.shields.io/badge/CCTV_%26_IP_Cam-00F5FF?style=flat-square)
 ![Eletromecânica](https://img.shields.io/badge/Manutenção_Eletromecânica-FF9100?style=flat-square)
 ![HST](https://img.shields.io/badge/Segurança_HSE%2FHST-00E676?style=flat-square)
+![Node-Red]
+![Codesys]
+![Logosoft]
+![ignition]
+![OpenPLC]
+![CIMON-CICON-CANVAS]
 
 ---
 
