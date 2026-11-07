@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Graça Alberto |
+Técnico de Manutenção e Automação Industrial
+</title>
+
+<meta name="description"
+content="Técnico de Manutenção e Automação Industrial com formação em Eletromecânica e experiência em Produção Industrial, Processos Industriais, Melhoria Contínua e Digitalização de Processos.">
+
+<meta name="author"
+content="Graça Alberto">
+
+<meta name="robots"
+content="index, follow">
+
+<meta name="theme-color"
+content="#0f172a">
+
+<link rel="canonical"
+href="https://graaa-enginner.it.ao">
+
+<style>
+
+:root{
+--primary:#0f172a;
+--accent:#2563eb;
+--bg:#f8fafc;
+--white:#fff;
+--text:#1f2937;
+--muted:#64748b;
+--border:#e5e7eb;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Segoe UI,Arial,sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.7;
+}
+
+.container{
+width:92%;
+max-width:1200px;
+margin:auto;
+}
+
+section{
+padding:80px 0;
+}
+
+h1,h2,h3{
+color:var(--primary);
+}
+
+.titulo{
+font-size:2rem;
+margin-bottom:35px;
+}
+
+.grid{
+display:grid;
+gap:24px;
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+}
+
+.card{
+background:#fff;
+padding:24px;
+border:1px solid var(--border);
+border-radius:12px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 22px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+}
+
+.btn-primary{
+background:#fff;
+color:#0f172a;
+}
+
+.btn-outline{
+border:1px solid rgba(255,255,255,.25);
+color:white;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+gap:16px;
+}
+
+nav a{
+text-decoration:none;
+color:#fff;
+}
+
+header{
+background:#0f172a;
+padding:18px 0;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.header-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:#fff;
+}
+
+.hero{
+background:linear-gradient(
+135deg,
+#0f172a,
+#1e293b
+);
+color:white;
+padding:120px 0;
+}
+
+.hero h1{
+color:white;
+font-size:3rem;
+margin-bottom:15px;
+}
+
+.hero h2{
+color:white;
+font-size:1.3rem;
+font-weight:500;
+margin-bottom:25px;
+}
+
+.badges{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-top:25px;
+}
+
+.badge{
+background:rgba(255,255,255,.15);
+padding:10px 15px;
+border-radius:30px;
+font-size:.9rem;
+}
+
+.hero-buttons{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.timeline{
+border-left:3px solid var(--accent);
+padding-left:25px;
+}
+
+.timeline-item{
+margin-bottom:40px;
+}
+
+.skill-list{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skill{
+background:#e0ecff;
+color:#2563eb;
+padding:10px 14px;
+border-radius:20px;
+font-weight:600;
+}
+
+.project{
+background:#fff;
+padding:25px;
+border-radius:12px;
+border:1px solid var(--border);
+margin-bottom:25px;
+}
+
+.project img{
+width:100%;
+border-radius:10px;
+margin-top:15px;
+}
+
+footer{
+background:#0f172a;
+color:white;
+padding:40px 0;
+text-align:center;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2.2rem;
+}
+.header-content{
+flex-direction:column;
+gap:15px;
+}
+section{
+padding:60px 0;
+}
+}
+</style>
+</head>
+<body>
+	<!-- =====================================
+HEADER
+===================================== -->
+
+<header>
+
+    <div class="container header-content">
+
+        <div class="logo">
+
+            <strong>
+                Graça Alberto
+            </strong>
+
+        </div>
+
+        <nav>
+
+            <a href="#sobre">Sobre</a>
+
+            <a href="#especializacao">Especialização</a>
+
+            <a href="#experiencia">Experiência</a>
+
+            <a href="#competencias">Competências</a>
+
+            <a href="#equipamentos">Equipamentos</a>
+
+            <a href="#projetos">Projetos</a>
+
+            <a href="#certificados">Certificações</a>
+
+            <a href="#contacto">Contacto</a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- =====================================
+HERO
+===================================== -->
+
+<section class="hero">
+
+    <div class="container">
+
+        <h1>
+
+            Graça Alberto
+
+        </h1>
+
+        <h2>
+
+            Técnico de Manutenção e Automação Industrial
+
+        </h2>
+
+        <p>
+
+            Formação em Manutenção Industrial e Eletromecânica,
+            com experiência prática em Processos Industriais,
+            Produção, Melhoria Contínua e Digitalização Industrial.
+
+        </p>
+
+        <div class="badges">
+
+            <span class="badge">
+                Manutenção Industrial
+            </span>
+
+            <span class="badge">
+                Automação Industrial
+            </span>
+
+            <span class="badge">
+                Eletromecânica
+            </span>
+
+            <span class="badge">
+                Processos Industriais
+            </span>
+
+            <span class="badge">
+                Produção Industrial
+            </span>
+
+            <span class="badge">
+                TPM
+            </span>
+
+            <span class="badge">
+                Melhoria Contínua
+            </span>
+
+            <span class="badge">
+                Power BI
+            </span>
+
+            <span class="badge">
+                Excel
+            </span>
+
+            <span class="badge">
+                Python
+            </span>
+
+            <span class="badge">
+                SQL
+            </span>
+
+        </div>
+
+        <div class="hero-buttons">
+
+            <a
+            href="#contacto"
+            class="btn btn-primary">
+
+                Contactar
+
+            </a>
+
+            <a
+            href="#projetos"
+            class="btn btn-outline">
+
+                Ver Projetos
+
+            </a>
+
+            <a
+            href="cv/Graca-Alberto-CV.pdf"
+            target="_blank"
+            class="btn btn-outline">
+
+                Download CV
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+RESULTADOS
+===================================== -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="titulo">
+
+            Destaques Profissionais
+
+        </h2>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <h3>
+                    Manutenção
+                </h3>
+
+                <p>
+
+                    Experiência em manutenção preventiva,
+                    corretiva, TPM, diagnóstico de falhas
+                    e acompanhamento operacional de equipamentos.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Automação
+                </h3>
+
+                <p>
+
+                    Conhecimentos em sensores,
+                    atuadores, variadores de frequência,
+                    sistemas automatizados e suporte técnico.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Produção
+                </h3>
+
+                <p>
+
+                    Acompanhamento de linhas industriais,
+                    indicadores de desempenho,
+                    qualidade e melhoria operacional.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Digitalização
+                </h3>
+
+                <p>
+
+                    Desenvolvimento de ferramentas para
+                    registo digital, dashboards,
+                    rastreabilidade e análise de dados.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+SOBRE
+===================================== -->
+
+<section id="sobre">
+
+    <div class="container">
+
+        <h2 class="titulo">
+
+            Sobre Mim
+
+        </h2>
+
+        <div class="card">
+
+            <p>
+
+                Sou Técnico de Manutenção e Automação Industrial,
+                com formação profissional em Manutenção Industrial
+                e Eletromecânica.
+
+            </p>
+
+            <br>
+
+            <p>
+
+                Ao longo da minha experiência em ambiente industrial,
+                participei na operação e acompanhamento de linhas de produção,
+                diagnóstico de falhas, manutenção, melhoria contínua,
+                rastreabilidade e digitalização de processos.
+
+            </p>
+
+            <br>
+
+            <p>
+
+                Tenho contacto com equipamentos industriais
+                Krones, Sidel, KHS e AND&OR,
+                bem como motores, sensores,
+                atuadores, válvulas industriais,
+                contactores e variadores de frequência.
+
+            </p>
+
+            <br>
+
+            <p>
+
+                Complemento a componente técnica com competências em
+                Excel, Power BI, Python e SQL aplicadas ao contexto industrial.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+ESPECIALIZAÇÃO PRINCIPAL
+===================================== -->
+
+<section id="especializacao">
+
+    <div class="container">
+
+        <h2 class="titulo">
+
+            Especialização Principal
+
+        </h2>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <h3>
+
+                    Manutenção Industrial
+
+                </h3>
+
+                <p>
+
+                    Manutenção preventiva,
+                    corretiva, TPM,
+                    diagnóstico de falhas,
+                    fiabilidade operacional
+                    e suporte técnico industrial.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+
+                    Automação Industrial
+
+                </h3>
+
+                <p>
+
+                    Sensores,
+                    atuadores,
+                    variadores de frequência,
+                    equipamentos automatizados
+                    e apoio à resolução de falhas.
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- =====================================
+PARTE C COMEÇA AQUI
+===================================== -->
+<!-- =====================================
+EXPERIÊNCIA PROFISSIONAL
+===================================== -->
+
+<section id="experiencia">
+
+    <div class="container">
+
+        <h2 class="titulo">
+            Experiência Profissional
+        </h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <h3>
+                    Sub-Supervisor de Produção | Operador Técnico Especialista
+                </h3>
+
+                <p>
+                    Refriango • Luanda • Angola
+                </p>
+
+                <br>
+
+                <ul>
+
+                    <li>
+                        Acompanhamento da operação de linhas industriais.
+                    </li>
+
+                    <li>
+                        Supervisão operacional e apoio às equipas de produção.
+                    </li>
+
+                    <li>
+                        Monitorização da disponibilidade,
+                        qualidade e desempenho dos equipamentos.
+                    </li>
+
+                    <li>
+                        Participação em atividades de manutenção preventiva,
+                        corretiva e TPM.
+                    </li>
+
+                    <li>
+                        Diagnóstico de falhas elétricas,
+                        mecânicas e de automação.
+                    </li>
+
+                    <li>
+                        Intervenção em motores,
+                        sensores,
+                        válvulas,
+                        atuadores,
+                        contactores
+                        e variadores de frequência.
+                    </li>
+
+                    <li>
+                        Apoio à resolução de problemas operacionais
+                        e melhoria do desempenho produtivo.
+                    </li>
+
+                    <li>
+                        Aplicação de 5S,
+                        Kaizen,
+                        Ishikawa,
+                        5 Porquês
+                        e práticas Lean.
+                    </li>
+
+                    <li>
+                        Desenvolvimento de soluções digitais
+                        para registos,
+                        rastreabilidade
+                        e consulta de informação operacional.
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+CONTRIBUIÇÕES PRINCIPAIS
+===================================== -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="titulo">
+            Principais Contribuições
+        </h2>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <h3>
+                    Manutenção
+                </h3>
+
+                <p>
+
+                    Apoio técnico à manutenção industrial,
+                    diagnóstico de falhas
+                    e acompanhamento da fiabilidade
+                    dos equipamentos.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Produção
+                </h3>
+
+                <p>
+
+                    Acompanhamento operacional das linhas,
+                    indicadores produtivos
+                    e melhoria do desempenho.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Melhoria Contínua
+                </h3>
+
+                <p>
+
+                    Aplicação prática de TPM,
+                    Kaizen,
+                    5S,
+                    Ishikawa
+                    e análise de causa raiz.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Digitalização
+                </h3>
+
+                <p>
+
+                    Desenvolvimento de ferramentas
+                    para registo,
+                    rastreabilidade
+                    e visualização de dados industriais.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+COMPETÊNCIAS
+===================================== -->
+
+<section id="competencias">
+
+    <div class="container">
+
+        <h2 class="titulo">
+            Competências Técnicas
+        </h2>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <h3>
+                    Manutenção Industrial
+                </h3>
+
+                <p>
+
+                    Manutenção preventiva,
+                    corretiva,
+                    TPM,
+                    diagnóstico de falhas,
+                    fiabilidade operacional
+                    e suporte técnico.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Automação Industrial
+                </h3>
+
+                <p>
+
+                    Sensores,
+                    atuadores,
+                    variadores de frequência,
+                    equipamentos automatizados
+                    e resolução de falhas.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Processos Industriais
+                </h3>
+
+                <p>
+
+                    Análise de processos,
+                    acompanhamento operacional,
+                    otimização
+                    e melhoria de desempenho.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Produção Industrial
+                </h3>
+
+                <p>
+
+                    Operação de linhas,
+                    qualidade,
+                    indicadores,
+                    perdas
+                    e produtividade.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Melhoria Contínua
+                </h3>
+
+                <p>
+
+                    Kaizen,
+                    5S,
+                    Ishikawa,
+                    5 Porquês,
+                    Lean Manufacturing
+                    e TPM.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Dados Industriais
+                </h3>
+
+                <p>
+
+                    Excel,
+                    Power BI,
+                    Python,
+                    SQL
+                    e dashboards operacionais.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+TECNOLOGIAS E FERRAMENTAS
+===================================== -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="titulo">
+            Tecnologias e Ferramentas
+        </h2>
+
+        <div class="skill-list">
+
+            <span class="skill">Excel</span>
+            <span class="skill">Power BI</span>
+            <span class="skill">Python</span>
+            <span class="skill">SQL</span>
+            <span class="skill">TPM</span>
+            <span class="skill">Kaizen</span>
+            <span class="skill">5S</span>
+            <span class="skill">Ishikawa</span>
+            <span class="skill">KPI</span>
+            <span class="skill">Lean</span>
+            <span class="skill">ISO 22000</span>
+            <span class="skill">HST</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+EQUIPAMENTOS E SISTEMAS
+===================================== -->
+
+<section id="equipamentos">
+
+    <div class="container">
+
+        <h2 class="titulo">
+            Equipamentos e Sistemas
+        </h2>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <h3>
+                    Linhas de Produção
+                </h3>
+
+                <p>
+
+                    Krones,
+                    KHS,
+                    Sidel
+                    e AND&OR.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Componentes Industriais
+                </h3>
+
+                <p>
+
+                    Motores,
+                    sensores,
+                    atuadores,
+                    válvulas,
+                    contactores
+                    e variadores de frequência.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Sistemas Industriais
+                </h3>
+
+                <p>
+
+                    CIP,
+                    rastreabilidade,
+                    registos operacionais
+                    e acompanhamento produtivo.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Operações
+                </h3>
+
+                <p>
+
+                    Produção,
+                    manutenção,
+                    qualidade,
+                    melhoria contínua
+                    e suporte operacional.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+PARTE D COMEÇA AQUI
+===================================== -->
+<!-- =====================================
+PROJETOS
+===================================== -->
+
+<section id="projetos">
+
+    <div class="container">
+
+        <h2 class="titulo">
+            Projetos e Digitalização Industrial
+        </h2>
+
+        <!-- Projeto 1 -->
+
+        <div class="project">
+
+            <h3>
+                Digitalização do Mapa de Produção
+            </h3>
+
+            <p>
+
+                Transformação dos registos manuais
+                de produção em informação digital
+                para melhorar consulta,
+                rastreabilidade
+                e acompanhamento operacional.
+
+            </p>
+
+            <img
+                src="imagens/mapa-producao.png"
+                alt="Sistema digital de mapa de produção">
+
+        </div>
+
+        <!-- Projeto 2 -->
+
+        <div class="project">
+
+            <h3>
+                Dashboard de Produção
+            </h3>
+
+            <p>
+
+                Dashboard desenvolvido para
+                acompanhamento de KPI,
+                desempenho das linhas,
+                análise de perdas
+                e monitorização operacional.
+
+            </p>
+
+            <img
+                src="imagens/dashboard-producao.png"
+                alt="Dashboard Power BI Produção">
+
+        </div>
+
+        <!-- Projeto 3 -->
+
+        <div class="project">
+
+            <h3>
+                Sistema de Rastreabilidade
+            </h3>
+
+            <p>
+
+                Ferramenta criada para consulta
+                de lotes,
+                rastreabilidade
+                e acompanhamento de informação
+                de produção.
+
+            </p>
+
+            <img
+                src="imagens/rastreabilidade.png"
+                alt="Sistema de rastreabilidade industrial">
+
+        </div>
+
+        <!-- Projeto 4 -->
+
+        <div class="project">
+
+            <h3>
+                Calendário de Turnos
+            </h3>
+
+            <p>
+
+                Aplicação para facilitar
+                a visualização de turnos,
+                escalas de trabalho
+                e organização das equipas.
+
+            </p>
+
+            <img
+                src="imagens/calendario-turnos.png"
+                alt="Calendário digital de turnos">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+CERTIFICAÇÕES
+===================================== -->
+
+<section id="certificados">
+
+    <div class="container">
+
+        <h2 class="titulo">
+            Formação e Certificações
+        </h2>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <img
+                    src="certificados/eletromecanica.jpg"
+                    alt="Certificado de Eletromecânica">
+
+                <br>
+
+                <h3>
+                    Manutenção Industrial e Eletromecânica
+                </h3>
+
+                <p>
+                    Formação profissional na área
+                    de manutenção,
+                    eletromecânica
+                    e equipamentos industriais.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <img
+                    src="certificados/powerbi.jpg"
+                    alt="Certificado Power BI">
+
+                <br>
+
+                <h3>
+                    Power BI
+                </h3>
+
+                <p>
+                    Visualização,
+                    tratamento
+                    e análise de dados.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <img
+                    src="certificados/python.jpg"
+                    alt="Certificado Python">
+
+                <br>
+
+                <h3>
+                    Python
+                </h3>
+
+                <p>
+                    Automação,
+                    análise de dados
+                    e desenvolvimento de soluções.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <img
+                    src="certificados/excel.jpg"
+                    alt="Certificado Excel">
+
+                <br>
+
+                <h3>
+                    Excel Avançado
+                </h3>
+
+                <p>
+                    Tratamento de dados,
+                    KPI
+                    e relatórios industriais.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+OBJECTIVO PROFISSIONAL
+===================================== -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="titulo">
+            Áreas de Interesse Profissional
+        </h2>
+
+        <div class="card">
+
+            <div class="skill-list">
+
+                <span class="skill">
+                    Técnico de Manutenção Industrial
+                </span>
+
+                <span class="skill">
+                    Técnico de Automação Industrial
+                </span>
+
+                <span class="skill">
+                    Técnico de Processos Industriais
+                </span>
+
+                <span class="skill">
+                    Produção Industrial
+                </span>
+
+                <span class="skill">
+                    Supervisor de Produção
+                </span>
+
+                <span class="skill">
+                    Lean Manufacturing
+                </span>
+
+                <span class="skill">
+                    TPM
+                </span>
+
+                <span class="skill">
+                    Melhoria Contínua
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+CONTACTO
+===================================== -->
+
+<section id="contacto">
+
+    <div class="container">
+
+        <h2 class="titulo">
+            Contacto
+        </h2>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <h3>
+                    Localização
+                </h3>
+
+                <p>
+                    Luanda, Angola
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    Telefone
+                </h3>
+
+                <p>
+
+                    <a href="tel:+244956360304">
+                        +244 956 360 304
+                    </a>
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    WhatsApp
+                </h3>
+
+                <p>
+
+                    <a
+                    href="https://wa.me/244956360304"
+                    target="_blank">
+
+                    Conversar no WhatsApp
+
+                    </a>
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    E-mail
+                </h3>
+
+                <p>
+
+                    <a
+                    href="mailto:graca.alberto.ind@gmail.com">
+
+                    graca.alberto.ind@gmail.com
+
+                    </a>
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    LinkedIn
+                </h3>
+
+                <p>
+
+                    <a
+                    href="https://www.linkedin.com/"
+                    target="_blank">
+
+                    Ver Perfil
+
+                    </a>
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    GitHub
+                </h3>
+
+                <p>
+
+                    <a
+                    href="https://github.com/graaalberto"
+                    target="_blank">
+
+                    github.com/graaalberto
+
+                    </a>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+FOOTER
+===================================== -->
+
+<footer>
+
+    <div class="container">
+
+        <h3>
+            Graça Alberto
+        </h3>
+
+        <p>
+
+            Técnico de Manutenção e Automação Industrial
+
+        </p>
+
+        <p>
+
+            Formação em Manutenção Industrial
+            e Eletromecânica • Experiência em
+            Produção Industrial,
+            Processos Industriais
+            e Melhoria Contínua.
+
+        </p>
+
+        <p>
+
+            © 2026 Graça Alberto.
+            Todos os direitos reservados.
+
+        </p>
+    </div>
+</footer>
+</body>
+</html>
