@@ -1,17 +1,17 @@
 {
-  "name": "Graça Alberto | Técnico de Manutenção e Automação Industrial",
+  "name": "Graça Alberto | Técnico de Processos Industriais",
   "short_name": "Graça Alberto",
-  "description": "Portfólio de Graça Alberto, Técnico de Manutenção e Automação Industrial.",
+  "description": "Portfólio profissional de Graça Alberto, Técnico de Processos Industriais.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0c0d0e",
   "theme_color": "#0c0d0e",
   "icons": [
     {
-      "src": "/assets/aistudio/IMG-20261011-WA9073_4fcad408.jpg",
-      "sizes": "512x512",
-      "type": "image/jpeg",
-      "purpose": "any maskable"
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
     }
   ]
 }
